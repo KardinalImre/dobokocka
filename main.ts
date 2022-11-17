@@ -1,8 +1,27 @@
 let dobokocka = 0
 input.onGesture(Gesture.Shake, function () {
+    basic.showLeds(`
+        # # # # #
+        # . . . #
+        # . . . #
+        # . . . #
+        # # # # #
+        `)
+    basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # . # #
+        # # # # #
+        # # # # #
+        `)
+    basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        `)
     dobokocka = randint(1, 6)
-})
-basic.forever(function () {
     if (dobokocka == 1) {
         basic.showLeds(`
             . . . . .

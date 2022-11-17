@@ -1,4 +1,22 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Aefh^q%Sh7l=-:nUrBxd">dobokocka</variable></variables><block type="device_forever" id="}ejA^42/XwrYZat,iDs." x="-472" y="-974"><statement name="HANDLER"><block type="controls_if" id="*a0c/~[.iKOsm)/a!qow"><mutation elseif="5" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="#-iotuq.sDo];SEz3K$H"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="`m(?.R[4C1.G@Y2MW[{-"><field name="VAR" id="Aefh^q%Sh7l=-:nUrBxd">dobokocka</field></block></value><value name="B"><shadow type="math_number" id="-Ll}Pc-im;O8{Io4#~p6"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="J[[,v1G,yqnC=%C|jt1u"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Aefh^q%Sh7l=-:nUrBxd">dobokocka</variable><variable id="Y!L-WKh*M)*IL}TCo+(h">list</variable><variable id="vXkXd:w*Rq!{ki,W+}k.">érték</variable></variables><block type="device_gesture_event" id="rx^!*[WWfc8ZErS@)`yb" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="|dIr)KIPK9,U{7:uw0%e"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="g[GJqLIJUbp!#E48pY7("><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # . # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="yA9hLn6XIwt;urGHodZ5"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="variables_set" id="y4J6Q6s.`[#%iwh^{fFa"><field name="VAR" id="Aefh^q%Sh7l=-:nUrBxd">dobokocka</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="I#L43AgS9PhVcN|kqj5/"><value name="min"><shadow type="math_number" id="pqj2Y_vFX[mRmi.^GJ]c"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="D@VU;XxiYA!o7FGuIpw4"><field name="NUM">6</field></shadow></value></block></value><next><block type="controls_if" id="*a0c/~[.iKOsm)/a!qow"><mutation elseif="5" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="#-iotuq.sDo];SEz3K$H"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="`m(?.R[4C1.G@Y2MW[{-"><field name="VAR" id="Aefh^q%Sh7l=-:nUrBxd">dobokocka</field></block></value><value name="B"><shadow type="math_number" id="-Ll}Pc-im;O8{Io4#~p6"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="J[[,v1G,yqnC=%C|jt1u"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . # . . 
@@ -40,4 +58,4 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></statement></block></statement></block><block type="device_gesture_event" id="rx^!*[WWfc8ZErS@)`yb" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="y4J6Q6s.`[#%iwh^{fFa"><field name="VAR" id="Aefh^q%Sh7l=-:nUrBxd">dobokocka</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="I#L43AgS9PhVcN|kqj5/"><value name="min"><shadow type="math_number" id="pqj2Y_vFX[mRmi.^GJ]c"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="D@VU;XxiYA!o7FGuIpw4"><field name="NUM">6</field></shadow></value></block></value></block></statement></block></xml>
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></statement></block></xml>
